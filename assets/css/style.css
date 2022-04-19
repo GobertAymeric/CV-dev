@@ -1,0 +1,344 @@
+*
+{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Roboto Condensed', sans-serif;
+}
+
+body
+{
+    margin: 0;
+    padding: 0;
+    background: whitesmoke;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+.container
+{
+    position:relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 100px;
+    background: whitesmoke;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
+}
+
+.container .left_Side
+{
+    position: relative;
+    background: #068AAB ;
+    padding:40px;
+}
+
+.left_Side h3
+{
+    border-width:2px;
+    border-style:solid;
+    border-color:whitesmoke;
+    text-align: center;
+    }
+    
+.profileText
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #068AAB;
+}
+
+.profileText .imgPf
+{
+    position:relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow:hidden;
+}
+
+.profileText .imgPf img
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.profileText h2
+{
+   color: whitesmoke;
+   font-size: 1.5em;
+   margin-top: 20px;
+   text-transform: uppercase;
+   text-align: center;
+   font-weight: 600;
+   line-height: 1.4em;
+}
+
+.profileText h2 span
+{
+    font-size: 0.8em;
+    font-weight: 300;
+}
+
+.contactInfo
+{
+    padding-top:15px;
+}
+
+.title
+{
+    color:whitesmoke;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.contactInfo ul
+{
+    position: relative;
+}
+
+.contactInfo li
+{
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.contactInfo .icon
+{
+    display: inline-block;
+    width: 30px;
+    font-size: 20px;
+    color: whitesmoke ;
+}
+
+.contactInfo ul li span
+{
+ color: whitesmoke;
+ font-weight: 300; 
+ margin-bottom: 10px;  
+}
+
+.infoforma li
+{
+    list-style-type: none;
+}
+
+.infoforma h3
+{
+    color: #2a7da2 ;
+    font-weight: 900; 
+    margin-top: 15px;   
+}
+
+.infoforma h5
+{
+    color: black ;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.infoforma h4:nth-child(2)
+{
+    color: #2a7da2;
+    font-weight: 900;
+}
+
+.infoforma h4
+{
+    color: #000000 ;
+    font-weight: 500;
+    text-align: center;
+}
+
+.container .right_Side
+{
+    position:relative;
+    background: rgb(186, 186, 186);
+    padding: 40px;
+}
+
+.about
+{
+    margin-bottom: 30px;
+}
+
+.about:last-child
+{
+    margin-bottom: 0;
+}
+
+.title2
+{
+    color: #2a7da2 ;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+.title3
+{
+    color: whitesmoke ;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+p
+{
+    color: black;
+}
+
+.about .box
+{
+    display: flex;
+    flex-direction: row;
+    margin: 25px 0;
+}
+
+.about .box .year_company
+{
+    min-width: 150px;
+}
+
+.about .box .year_company h5
+{
+    text-transform: uppercase;
+    color: #2a7da2;
+    font-weight: 600;
+}
+
+.about .box .text h4
+{
+    text-transform: uppercase;
+    color: #2a7da2;
+    font-size: 16px;
+}
+
+.skills .box
+{
+    position: relative;
+    width: 100%;
+
+}
+
+.skills .box h4
+{
+    text-transform: uppercase;
+    color: #2a7da2;
+    font-weight: 500;
+}
+
+.interest ul
+{
+    display: grid;
+    text-align: center;
+}
+
+.interest ul li 
+{
+    list-style: none;
+    color: whitesmoke ;
+    font-weight: 500;
+    margin: 10px 0;
+}
+
+.interest ul li .fa 
+{
+    color: #2a7da2;
+    font-size: 18px;
+    width: 20px;
+}
+.interest .title2 i
+{
+    color: #2a7da2 ;
+}
+
+.interest .title3 i
+{
+    color: whitesmoke;
+}
+
+.interest
+.interest i
+{
+    color: #2a7da2;
+}
+
+.atout {
+    color: whitesmoke;
+}
+
+.Infoatout ul{
+    text-align: center;
+    color: whitesmoke;
+    margin: 10px;
+}
+
+
+.Comp {
+    color: #2a7da2;
+    margin-top: 25px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.text h4 {
+    text-align: center;
+    margin-top: 15px;
+    font-weight: 900;
+    font-size: 1.1rem;
+    color:#2a7da2;
+}
+.text ul li{
+    color: black;
+    text-align: center;
+    list-style-type: none;
+    font-size: 0.9rem;
+}
+
+
+@media (max-width: 1000px)
+{
+    .container
+    {
+        margin: 10px;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .interest ul
+    {
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+
+@media (max-width:600px)
+{
+    .about.box 
+    {
+        flex-direction: column;
+    }
+    .about .box .year_company
+    {
+        margin-bottom: 5px;
+    }
+    .interest ul
+    {
+        grid-template-columns: repeat(1,1fr);
+    }
+}
